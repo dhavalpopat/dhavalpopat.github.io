@@ -37,12 +37,12 @@
         </script>
     </head>
     <body oncontextmenu="return false">
-        <!-- <div class="s-bg-image s-bg-light-text s-new-title-section s-section background-cover" data-react-style="{&quot;backgroundRepeat&quot;:&quot;no-repeat&quot;,&quot;backgroundSize&quot;:&quot;cover&quot;,&quot;backgroundColor&quot;:&quot;transparent&quot;,&quot;backgroundPosition&quot;:&quot;50% 50%&quot;}" style="background-repeat: no-repeat; background-size: cover; background-color: transparent; background-position: 50% 50%; background-image: url(&quot;./images/background.jpg&quot;); min-height: 0px; border: solid;"> -->
         <div class="background-cover">
-            <img class="center-fit-img" src="./images/background.jpg" style="z-index: -1;">
+            <img class="center-fit-img background-lg" src="./images/background.jpg" style="z-index: -1;">
+            <img class="center-fit-img background-sm" src="./images/background-sm.jpg" style="z-index: -1;">
             <div id="overlay-text">
-                <h4 style="font-size: 150%"><em>Hey, I'm</em></h4>
-                <h1 style="font-size: 300%"><strong>DHAVAL POPAT</strong></h1>
+                <h4 id="label-hey"><em>Hey, I'm</em></h4>
+                <h1 id="label-dhaval-popat"><strong>DHAVAL POPAT</strong></h1>
             </div>
         </div>
         <div class="container pt-5">
@@ -99,6 +99,7 @@
                 </div>
             </div>
         </div>
+        <link rel="stylesheet" type="text/css" href="./css/site-end.css">
     </body>
     <footer class="container-fluid bg-light mt-5 py-3">
         <div class="row">

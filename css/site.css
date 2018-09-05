@@ -16,9 +16,17 @@
     text-align: center;
     float: right;
     position: absolute;
-    left: 60%;
+    right: 10%;
     top: 50%;
     color: #000000;
+}
+
+#label-hey {
+    font-size: 150%;
+}
+
+#label-dhaval-popat {
+    font-size: 300%;
 }
 
 a {

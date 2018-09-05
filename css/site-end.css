@@ -1,0 +1,32 @@
+.background-sm {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    /* For mobile phones & tablets */
+    
+    .background-lg {
+        display: none;
+    }
+    
+    .background-sm {
+        display: block;
+    }
+
+    #overlay-text {
+        text-align: center;
+        float: right;
+        position: absolute;
+        left: 5%;
+        top: 80%;
+        color: #ffffff;
+    }
+
+    #label-hey {
+        font-size: 150%;
+    }
+    
+    #label-dhaval-popat {
+        font-size: 200%;
+    }
+}
