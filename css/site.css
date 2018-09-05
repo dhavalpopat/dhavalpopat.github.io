@@ -1,6 +1,24 @@
-img {
+.background-cover {
+    opacity: 0.8;
+    position: relative;
+}
+
+.center-fit-img {
+    width: 100vw;
+    height: 100vh;
     max-width: 100%;
-    height: auto;
+    max-height: 100vh;
+    display: block;
+    object-fit: cover;
+}
+
+#overlay-text {
+    text-align: center;
+    float: right;
+    position: absolute;
+    left: 60%;
+    top: 50%;
+    color: #000000;
 }
 
 a {
@@ -18,5 +36,7 @@ a {
 }
 
 .company-logo {
+    max-width: 100%;
+    height: auto;
     padding: 10%;
 }
