@@ -15,9 +15,10 @@
 
     #overlay-text {
         height: fit-content;
+        float: center;
         text-align: center;
         position: absolute;
-        left: -5%;
+        left: 25%;
         top: 70%;
         color: #ffffff;
     }
