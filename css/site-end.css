@@ -14,11 +14,11 @@
     }
 
     #overlay-text {
+        height: fit-content;
         text-align: center;
-        float: right;
         position: absolute;
-        left: 5%;
-        top: 80%;
+        left: -5%;
+        top: 70%;
         color: #ffffff;
     }
 

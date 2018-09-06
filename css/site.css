@@ -16,7 +16,7 @@
     text-align: center;
     float: right;
     position: absolute;
-    right: 10%;
+    left: 50%;
     top: 50%;
     color: #000000;
 }
@@ -26,7 +26,7 @@
 }
 
 #label-dhaval-popat {
-    font-size: 300%;
+    font-size: 350%;
 }
 
 a {
@@ -47,4 +47,18 @@ a {
     max-width: 100%;
     height: auto;
     padding: 10%;
+}
+
+.card-header {
+    border-top: 0.5px solid #e0e0e0;
+    border-left: 0.5px solid #e0e0e0;
+    border-right: 0.5px solid #e0e0e0;
+    text-align: center;
+}
+
+.card-body {
+    border-bottom: 0.5px solid #e0e0e0;
+    border-left: 0.5px solid #e0e0e0;
+    border-right: 0.5px solid #e0e0e0;
+    padding: 35px;
 }
