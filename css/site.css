@@ -29,6 +29,17 @@
     font-size: 350%;
 }
 
+.contact-icon {
+    width: auto;
+    height: 45px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+    .contact-icon:hover {
+        filter: grayscale(0%);
+        -webkit-filter: grayscale(0%);
+    }
+
 a {
     font-size: 35px;
     color: #00acc1;
