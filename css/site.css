@@ -31,13 +31,13 @@
 
 .contact-icon {
     width: auto;
-    height: 45px;
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
 }
     .contact-icon:hover {
         filter: grayscale(0%);
         -webkit-filter: grayscale(0%);
+        transform: scale(1.2);
     }
 
 a {
