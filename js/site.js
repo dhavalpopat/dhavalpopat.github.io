@@ -1,2 +1,2 @@
-var windowWidth = $(window).width();
-var windowHeight = $(window).height();
+// var windowWidth = $(window).width();
+// var windowHeight = $(window).height();
