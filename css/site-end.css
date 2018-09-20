@@ -1,16 +1,8 @@
-.background-sm {
-    display: none;
-}
-
 @media screen and (max-width: 768px) {
     /* For mobile phones & tablets */
     
-    .background-lg {
-        display: none;
-    }
-    
-    .background-sm {
-        display: block;
+    .background-cover {
+        background-image: url("../images/dhaval/background-sm.jpg");
     }
 
     #overlay-text {

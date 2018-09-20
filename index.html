@@ -8,6 +8,8 @@
         <link rel="shortcut icon" href="./images/dhaval/favicon.ico">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Serif+KR" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="./css/site.css">
         <script src="./js/site.js"></script>
         
@@ -20,7 +22,7 @@
             gtag('config', 'UA-125188302-1');
         </script>
 
-        <script type='text/javascript'>
+        <!-- <script type='text/javascript'>
             var isCtrl = false;
             document.onkeyup=function(e) {
                 if (e.which == 17) isCtrl=false;
@@ -35,12 +37,10 @@
                 return false;
             }
             document.oncontextmenu = disable;
-        </script>
+        </script> -->
     </head>
     <body oncontextmenu="return false">
         <div class="background-cover">
-            <img class="center-fit-img background-lg" src="./images/dhaval/background.jpg" style="z-index: -1;">
-            <img class="center-fit-img background-sm" src="./images/dhaval/background-sm.jpg" style="z-index: -1;">
             <div id="overlay-text">
                 <h4 id="label-hey"><em>Hey, I'm</em></h4>
                 <h1 id="label-dhaval-popat"><strong>DHAVAL POPAT</strong></h1>
@@ -59,7 +59,7 @@
         </div>
         <div class="container pt-5">
             <div class="card-header">
-                <h2 style="font-size: 250%;">My professional experience so far...</h2>
+                <h2><strong>My professional experience so far...</strong></h2>
             </div>
             <div class="card-body">
                 <div class="row">
@@ -71,9 +71,9 @@
                         <img src="./images/technologies/css3.png" alt="CSS3" style="width: 20%"> -->
                     </div>
                     <div class="col-sm-10">
-                        <a style="font-family: 'Open Sans', cursive;" href="https://www.zebra.com" target="_blank">Zebra Technologies</a>
-                        <h6 class="text-muted">Software Engineering Intern, Jun 2018 - Aug 2018</h6>
-                        <p>
+                        <a href="https://www.zebra.com" target="_blank">Zebra Technologies</a>
+                        <h6>Software Engineering Intern, Summer 2018</h6>
+                        <p class="text-muted">
                             The summer 2018 internship at Zebra gave me an opportunity to work on a legacy system upgrade from desktop to a web application using ASP.NET MVC for seamlessly processing inventory orders.
                             The agile development methodology was used to analyze client’s requirements and incorporate advanced features that improved forecasting accuracy.
                             I also implemented innovative functionalities that led to about 65% increase in user productivity and designed SQL tables to efficiently support them.
@@ -87,9 +87,9 @@
                         <img src="./images/companies/langone.png" alt="NYU Langone Health" class="company-logo">
                     </div>
                     <div class="col-sm-10">
-                        <a style="font-family: 'Open Sans', cursive;" href="https://www.nyulangone.org" target="_blank">NYU Langone Health</a>
-                        <h6 class="text-muted">Student Research Intern, Feb 2018 - May 2018</h6>
-                        <p>
+                        <a href="https://www.nyulangone.org" target="_blank">NYU Langone Health</a>
+                        <h6>Student Research Intern, Spring 2018</h6>
+                        <p class="text-muted">
                             While working on-campus at NYU Langone Health, I collaborated with an interdisciplinary team to provide innovative technological solutions.
                             I worked on the development of an interactive desktop application to facilitate cognitively impaired patients with text and voice based communication.
                             The cranial placement of an experimental treatment tDCS device was verified by fine-tuning the Faster R-CNN model with Inception v2.
@@ -102,9 +102,9 @@
                         <img src="./images/companies/drishti.png" alt="Drishti Group" class="company-logo">
                     </div>
                     <div class="col-sm-10">
-                        <a style="font-family: 'Open Sans', cursive;" href="https://www.drishti.works" target="_blank">Drishti Group</a>
-                        <h6 class="text-muted">Computer Vision Intern, Jun 2017 - Aug 2017</h6>
-                        <p>
+                        <a href="https://www.drishti.works" target="_blank">Drishti Group</a>
+                        <h6>Computer Vision Intern, Summer 2017</h6>
+                        <p class="text-muted">
                             During my summer 2017 internship at Drishti, I worked on building a real-time surveillance system that detects and tracks people in deep sea water to prevent them from drowning.
                             The system had to be trained with about 30,000 data samples using cascade classifiers that resulted in achieving over 85% detection accuracy.
                             A module was integrated to alert lifeguards by sending them the missing person’s location and tracked route.
@@ -113,21 +113,84 @@
                 </div>
             </div>
         </div>
-        <!-- <div class="container pt-5">
+        <div class="container pt-5">
             <div class="card-header">
-                <h2 style="font-size: 250%;"></h2>
+                <h2><strong>Some of my projects...</strong></h2>
             </div>
             <div class="card-body">
-            </div>
-        </div> -->
-        <link rel="stylesheet" type="text/css" href="./css/site-end.css">
-    </body>
-    <footer class="container-fluid bg-light mt-5 py-3">
-        <div class="row">
-            <div class="col text-center">
-                <h4>Thanks for visiting!</h4>
-                <!-- <p>&copy;2018 Dhaval Popat</p> -->
+                <div class="row">
+                    <div class="col-sm-2">
+                        <img src="" alt="" class="">
+                    </div>
+                    <div class="col-sm-10">
+                        <a href="https://www.github.com/dhavalpopat/nearby-events" target="_blank">Event Finder – Search Nearby Events</a>
+                        <h6>Backend Development, Summer 2018</h6>
+                        <div>
+                            <p class="text-muted">
+                                This web application displays events happening in the local neighborhood by populating the map using D3.js based on user’s preferences. 
+                                Whenever user sends login request, an authentication token gets generated along with the payload, and is saved in local storage at client side. 
+                                Furthermore, I implemented a middleware function to authorize user request using the authentication token and private key before forwarding it to route handler. 
+                                The local events data is fetched by hitting an external API using basic auth. 
+                                I also built an API endpoint to get information of users and restricted its access by verifying user roles with admin privileges.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-2">
+                        <img src="" alt="" class="">
+                    </div>
+                    <div class="col-sm-10">
+                        <a href="https://www.github.com/dhavalpopat/sense.me" target="_blank">Sense.ME – Monitoring Mental Health using Smartphone Data</a>
+                        <h6>Data Science, Fall 2017</h6>
+                        <div>
+                            <p class="text-muted">
+                                This project gave me an opportunity to explor and preprocess sensing data gathered from accelerometer, microphone, light sensor, app usage, GPS, etc. to develop sleep model, conversation classifier and activity predictor, and integrated this data with academic workload.
+                                I analyzed behavioral changes using visualizations to interpret relationship between smartphone data and student’s mental health state.
+                                Further, I utilized my knowledge of data reduction, predictive modeling, and model selection & evaluation to build a linear regression model with lasso regularization for predicting depression and stress levels. 
+                            </p>
+                            <!-- <div class="slideshow-container">
+                                <div class="image-slider fade">
+                                    <img src="./images/projects/sense-me/heatmap-1.png" style="width:100%">
+                                </div>
+                                <div class="image-slider fade">
+                                    <img src="./images/projects/sense-me/heatmap-2.png" style="width:100%">
+                                </div>
+                                <div class="image-slider fade">
+                                    <img src="./images/projects/sense-me/heatmap-3.png" style="width:100%">
+                                </div>
+                                <div class="image-slider fade">
+                                    <img src="./images/projects/sense-me/heatmap-4.png" style="width:100%">
+                                </div>
+                                <div class="image-slider fade">
+                                    <img src="./images/projects/sense-me/heatmap-5.png" style="width:100%">
+                                </div>
+                                <div class="image-slider fade">
+                                    <img src="./images/projects/sense-me/heatmap-6.png" style="width:100%">
+                                </div> -->
+                                <!-- next and previous buttons -->
+                                <!-- <a class="prev" onclick="nextSlides(-1)">&#10094;</a>
+                                <a class="next" onclick="nextSlides(1)">&#10095;</a>
+                            </div>
+                            <br> -->
+                            <!-- dots/circles -->
+                            <!-- <div style="text-align:center">
+                                <span class="dot" onclick="currentSlide(1)"></span>
+                                <span class="dot" onclick="currentSlide(2)"></span>
+                                <span class="dot" onclick="currentSlide(3)"></span>
+                                <span class="dot" onclick="currentSlide(4)"></span>
+                                <span class="dot" onclick="currentSlide(5)"></span>
+                                <span class="dot" onclick="currentSlide(6)"></span>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+        <link rel="stylesheet" type="text/css" href="./css/site-end.css">
+    </body>
+    <footer class="container-fluid text-center bg-light mt-5 py-3">
+        <h4 style="font-family: 'Comfortaa', cursive;">Thanks for visiting!</h4>
+        <!-- <p>&copy;2018 Dhaval Popat</p> -->
     </footer>
 </html>
