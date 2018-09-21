@@ -128,9 +128,8 @@
                         <div>
                             <p class="text-muted">
                                 Event Finder is a web application that displays events happening in the local neighborhood by populating the map using D3.js based on user’s preferences. 
-                                Whenever user sends login request, an authentication token gets generated along with the payload, and is saved in local storage at client side. 
-                                Furthermore, I implemented a middleware function to authorize user request using the authentication token and private key before forwarding it to route handler. 
                                 The local events data is fetched by hitting an external API using basic auth. 
+                                I implemented the authentication module and created a middleware function to authorize users’ API requests.
                                 I also built an API endpoint to get information of users and restricted its access by verifying user roles with admin privileges.
                             </p>
                         </div>
