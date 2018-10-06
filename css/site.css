@@ -62,7 +62,7 @@ h6 {
     color: #26A69A;
 }
 
-.company-logo-details {
+.company-tech-stack {
     background-color: #eceff1;
     border-radius: 10%;
 }
@@ -72,6 +72,15 @@ h6 {
     height: auto;
     padding: 10%;
 }
+
+.technology-images {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+    .technology-images:hover {
+        filter: grayscale(0%);
+        -webkit-filter: grayscale(0%);
+    }
 
 .card-header {
     border-top: 0.5px solid #e0e0e0;
