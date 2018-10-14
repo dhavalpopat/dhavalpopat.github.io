@@ -41,6 +41,26 @@ body, html {
         transform: scale(1.2);
     }
 
+#scroll-up-anchor {
+    display: none;
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    padding: 3px;
+    padding-right: 8px;
+    padding-left: 8px;
+    border-radius: 2px;
+    font-size: 25px;
+}
+    #scroll-up-anchor:hover {
+        background-color: #818181;
+    }
+
 h2 {
     font-family: 'Noto Serif KR', sans-serif;
     font-size: 225%;
