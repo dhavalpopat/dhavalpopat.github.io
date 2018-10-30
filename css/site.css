@@ -62,19 +62,27 @@ body, html {
         background-color: #818181;
     }
 
+a {
+    color: #3f51b5;
+}
+a:hover {
+    text-decoration: none;
+    color: #7986cb;
+}
+
 h2 {
     font-family: 'Noto Serif KR', sans-serif;
     font-size: 225%;
 }
 
-a {
+.heading {
     font-family: 'Open Sans', cursive;
     font-size: 25px;
     color: #3f51b5;
     /* color: #00acc1; */
     transition: 0.3s;
 }
-    a:hover {
+    .heading:hover {
         text-decoration: none;
         color: #7986cb;
         /* color: #00838f; */
