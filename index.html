@@ -185,6 +185,22 @@
             </div>
             <div class="card-body">
                 <div class="row">
+                    <div class="col-sm-12">
+                        <a href="https://www.github.com/dhavalpopat/" target="_blank" class="heading">AI Customer Service Chatbot</a>
+                        <h6>Cloud Computing, Fall 2018</h6>
+                        <div>
+                            <p class="text-muted">
+                                Amazon Web Services have been used to develop this scalable conversational dialog engine that recommends restaurants to users based on their location and preferences.
+                                I have used AWS Cognito to authenticate the users and IAM roles to manage authorizations which help users to access various services.
+                                The frontend is hosted on AWS S3 and API Gateway is used as an interface to connect it with the Lambda function.
+                                This Lambda function utilizes Lex to generate responses and communicate with the user.
+                                An event driven Lambda function is employed to fetch suggestions from the Yelp API and push them to SQS queue.
+                                The final Lambda funtion is triggered in a timely manner to retrieve recommendations from SQS and provide them to the user using SNS.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
                     <!-- <div class="col-sm-2">
                         <img src="" alt="" class="">
                     </div> -->
